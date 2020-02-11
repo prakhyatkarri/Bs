@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <!-- <app-sidebar></app-sidebar> -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li><a href="#">Accounts</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="#" class="btn btn-success" id="menu-toggle">Toggle Menu</a>
+          <h1>Sidebar Layout is cool</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est commodi fuga velit sapiente eius minima.
+            Officiis magnam vel vitae alias autem voluptas inventore dignissimos perspiciatis! Optio deserunt voluptatem
+            accusantium sed quasi quibusdam nihil at necessitatibus illum, sequi, est officiis non quidem excepturi illo
+            sunt dignissimos ex? Sit fugit totam earum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      ${"#wrapper"}.toggleClass("toggled");
+    });
+</script>

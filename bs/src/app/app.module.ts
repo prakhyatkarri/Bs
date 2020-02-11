@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { DashComponent } from './dash/dash.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    SidebarComponent,
+    DashComponent
   ],
   imports: [
     BrowserModule,
